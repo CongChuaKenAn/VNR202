@@ -1,26 +1,61 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@400;500&display=swap');
+
+/* Import Tailwind */
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a0a;    /* nền tối */
+  --foreground: #eaeaea;    /* chữ sáng */
+  --accent-red: #8B0000;    /* đỏ lịch sử */
+  --accent-gray: #444444;   /* xám thép */
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-heading: "Merriweather", serif;
+  --font-body: "Roboto", sans-serif;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
+  line-height: 1.7;
+}
+
+/* Heading style */
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  color: var(--accent-red);
+  margin-bottom: 0.5em;
+  letter-spacing: 1px;
+}
+
+/* Subheadings / paragraph strong */
+h5, h6, strong {
+  color: var(--accent-gray);
+}
+
+/* Links */
+a {
+  color: var(--accent-red);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Section variations */
+.section-dark {
+  background-color: #111;
+  color: var(--foreground);
+}
+
+.section-highlight {
+  background-color: var(--accent-red);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
 }
