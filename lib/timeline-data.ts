@@ -267,7 +267,17 @@ export const timelineData = [
       "Bộ Chính trị, Quân ủy chỉ đạo chiến lược, quân dân miền Bắc tranh thủ rút kinh nghiệm, củng cố lực lượng.",
       "Tinh thần toàn dân được nâng cao, tạo nên một 'chiến thắng thầm lặng' để chuẩn bị cho những ngày ác liệt tiếp theo.",
     ],
-    images: [],
+    images: [
+      {
+        url: "https://media.vov.vn/sites/default/files/styles/large/public/2022-12/6_1_0.jpg",
+        caption:
+          "Đại tướng Võ Nguyên Giáp cùng lãnh đạo Quân chủng Phòng không - Không quân chuẩn bị phương án đánh B-52 năm 1972. Ảnh tư liệu",
+      },
+      {
+        url: "https://bcp.cdnchinhphu.vn/thumb_w/777/334894974524682240/2022/12/17/19-khoang-1965-1968-chien-tranh-pha-hoai-1671243212614885208063.jpg",
+        caption: "Ụ súng phòng không bảo vệ bầu trời Hà Nội - Ảnh tư liệu",
+      },
+    ],
   },
   {
     title:

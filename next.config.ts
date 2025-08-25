@@ -55,6 +55,7 @@ const nextConfig = {
         protocol: "https",
         hostname: "dalat.lamdong.dcs.vn",
       },
+      { protocol: "https", hostname: "bcp.cdnchinhphu.vn" },
     ],
   },
 };
