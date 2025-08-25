@@ -55,6 +55,21 @@ export default function HistoricalMeaning() {
             2. Kết thúc thắng lợi cuộc cách mạng dân tộc dân chủ nhân dân trên
             phạm vi cả nước, mở ra kỷ nguyên mới cho dân tộc.
           </p>
+          <ul className="text-xl space-y-2 list-disc list-inside">
+            <li>
+              Kỷ nguyên cả nước hòa bình, thống nhất, cùng chung một nhiệm vụ
+              chiến lược, đi lên chủ nghĩa xã hội.
+            </li>
+            <li>
+              Làm tăng thêm sức mạnh vật chất, tinh thần thế và lực cho cách
+              mạng và dân tộc Việt Nam, nâng cao uy tín của Đảng và dân tộc trên
+              trường quốc tế.
+            </li>
+            <li>
+              Nâng cao khí phách, niềm tự hào và để lại những kinh nghiệm quý
+              báu cho sự nghiệp dựng nước và giữ nước.
+            </li>
+          </ul>
           <div className="grid md:grid-cols-2 gap-4">
             <figure className="relative w-full h-72">
               <Image
@@ -80,12 +95,19 @@ export default function HistoricalMeaning() {
             3. Làm thất bại âm mưu và thủ đoạn của chủ nghĩa đế quốc tiến công
             vào chủ nghĩa xã hội và cách mạng thế giới
           </p>
-          <p className="text-xl">
-            Đánh bại cuộc chiến tranh xâm lược quy mô lớn nhất, dài ngày nhất
-            của chủ nghĩa đế quốc kể từ sau Chiến tranh thế giới thứ II, chia rẻ
-            nước Mỹ sâu sắc nhất, làm phá sản tất cả chiến lược mới mà Mỹ thử
-            nghiệm.
-          </p>
+          <ul className="text-xl space-y-2 list-disc list-inside">
+            <li>
+              Đánh bại cuộc chiến tranh xâm lược quy mô lớn nhất, dài ngày nhất
+              của chủ nghĩa đế quốc, làm phá sản các chiến lược chiến tranh thực
+              dân kiểu mới và tác động đến nội tình nước Mỹ.
+            </li>
+            <li>
+              Làm suy yếu trận địa của chủ nghĩa đế quốc, phá vỡ một phòng tuyến
+              quan trọng của chúng ở khu vực Đông Nam Á, mở ra sự sụp đổ của chủ
+              nghĩa thực dân mới, cổ vũ phong trào độc lập dân tộc, dân chủ và
+              hòa bình thế giới.
+            </li>
+          </ul>
           <div className="grid md:grid-cols-2 gap-4">
             <figure className="relative w-full h-64">
               <Image
@@ -108,9 +130,14 @@ export default function HistoricalMeaning() {
           </div>
 
           <div className="bg-red-900/90 rounded-r-xl ">
-            <blockquote className="mt-4 italic font-bold text-xl text-amber-400 border-l-7 border-red-600 pl-2">
-              “Thắng lợi kháng chiến chống Mỹ, cứu nước mãi mãi được ghi vào
-              lịch sử dân tộc ta như một trang chói lọi nhất…”
+            <blockquote className="py-3 italic font-bold text-xl text-amber-400 border-l-7 border-red-600 pl-2">
+              “Năm tháng sẽ trôi qua, nhưng thắng lợi của nhân dân ta trong sự
+              nghiệp kháng chiến chống Mỹ, cứu nước mãi mãi được ghi vào lịch sử
+              dân tộc ta như một trong những trang chói lọi nhất, một biểu tượng
+              sáng ngời về sự toàn thắng của chủ nghĩa anh hùng cách mạng và trí
+              tuệ con người, và đi vào lịch sử thế giới như một chiến công vĩ
+              đại của thế kỷ XX, một sự kiện có tầm quan trọng quốc tế to lớn và
+              có tính thời đại sâu sắc”
               <span className="block text-lg mt-2 text-white justify-end items-end mr-2">
                 — Đại hội IV, 1976
               </span>
@@ -121,7 +148,7 @@ export default function HistoricalMeaning() {
         {/* KINH NGHIỆM */}
         <article className="space-y-8">
           <h3 className="text-2xl font-bold text-red-700 uppercase">
-            Kinh nghiệm lãnh đạo
+            II - Kinh nghiệm lãnh đạo
           </h3>
 
           {/* Một, Hai là */}
@@ -164,15 +191,16 @@ export default function HistoricalMeaning() {
             </div>
           </div>
 
-          {/* Ba là */}
-          <div className="space-y-3">
-            <p className="text-xl leading-relaxed">
-              <span className="font-bold text-red-700">Ba là, </span>
-              phải có công tác tổ chức chiến đấu giỏi của các cấp bộ Đảng và các
-              cấp chi ủy quân đội, thực hiện giành thắng lợi từng bước đến thắng
-              lợi hoàn toàn.
-            </p>
-            <div className="grid md:grid-cols-2 gap-4">
+          {/* Ba, Bốn là */}
+          <div className="flex flex-col md:flex-row gap-10">
+            {/* Ba là */}
+            <div className="md:w-1/2 space-y-3">
+              <p className="text-xl leading-relaxed mb-11">
+                <span className="font-bold text-red-700">Ba là, </span>
+                phải có công tác tổ chức chiến đấu giỏi của các cấp bộ Đảng và
+                các cấp chi ủy quân đội, thực hiện giành thắng lợi từng bước đến
+                thắng lợi hoàn toàn.
+              </p>
               <figure className="relative w-full h-64">
                 <Image
                   src="https://a.tcnn.vn/uploads/resources/hoainga/images/f8f336d27957a1b2f13b2daec1d1b4b0_l.jpg"
@@ -182,10 +210,20 @@ export default function HistoricalMeaning() {
                   className="object-cover rounded"
                 />
               </figure>
+            </div>
+
+            {/* Bốn là */}
+            <div className="md:w-1/2 space-y-3">
+              <p className="text-xl leading-relaxed">
+                <span className="font-bold text-red-700">Bốn là, </span>
+                hết sức coi trọng công tác xây dựng Đảng, xây dựng lực lượng
+                cách mạng ở miền Nam và tổ chức xây dựng chiến đấu trong cả
+                nước, tranh thủ tối đa sự đồng tình, ủng hộ của quốc tế.
+              </p>
               <figure className="relative w-full h-64">
                 <Image
-                  src="https://s-aicmscdn.vietnamhoinhap.vn/vnhn-media/22/12/6/2-hn-dpb.jpg"
-                  alt="Chiến đấu giỏi - quân đội nhân dân"
+                  src="https://www.phuyen.dcs.vn/images/uploaded/2212.png"
+                  alt="Xây dựng Đảng và tranh thủ quốc tế"
                   fill
                   unoptimized
                   className="object-cover rounded"
@@ -193,40 +231,34 @@ export default function HistoricalMeaning() {
               </figure>
             </div>
           </div>
+        </article>
 
-          {/* Bốn là */}
-          <div className="flex flex-col md:flex-row items-start gap-6">
+        {/* HẠN CHẾ */}
+        <article className="space-y-4">
+          <h3 className="text-2xl font-bold text-red-700 uppercase">
+            III - Hạn chế
+          </h3>
+          <div className="flex flex-col md:flex-row gap-6 items-start">
             {/* Chữ bên trái */}
             <div className="md:w-1/3">
               <p className="text-xl leading-relaxed">
-                <span className="font-bold text-red-700">Bốn là, </span>
-                hết sức coi trọng công tác xây dựng Đảng, xây dựng lực lượng
-                cách mạng ở miền Nam và tổ chức xây dựng chiến đấu trong cả
-                nước, tranh thủ tối đa sự đồng tình, ủng hộ của quốc tế.
+                Có thời điểm đánh giá so sánh lực lượng giữa ta và địch chưa
+                thật đầy đủ, còn biểu hiện nóng vội, chủ quan, duy ý chí trong
+                xây dựng CNXH ở miền Bắc.
               </p>
             </div>
 
             {/* Hình bên phải */}
-            <figure className="relative md:w-2/3 w-full h-64">
+            <figure className="relative w-full md:w-2/3 h-70">
               <Image
-                src="https://www.phuyen.dcs.vn/images/uploaded/2212.png"
-                alt="Xây dựng Đảng và tranh thủ quốc tế"
+                src="https://s-aicmscdn.vietnamhoinhap.vn/vnhn-media/22/12/6/2-hn-dpb.jpg"
+                alt="Chiến đấu giỏi - quân đội nhân dân"
                 fill
                 unoptimized
                 className="object-cover rounded"
               />
             </figure>
           </div>
-        </article>
-
-        {/* HẠN CHẾ */}
-        <article className="space-y-4">
-          <h3 className="text-2xl font-bold text-red-700 uppercase">Hạn chế</h3>
-          <p className="text-xl">
-            Có thời điểm đánh giá so sánh lực lượng giữa ta và địch chưa thật
-            đầy đủ, còn biểu hiện nóng vội, chủ quan, duy ý chí trong xây dựng
-            CNXH ở miền Bắc.
-          </p>
         </article>
       </div>
     </section>
