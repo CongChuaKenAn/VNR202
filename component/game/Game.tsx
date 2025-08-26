@@ -212,7 +212,7 @@ export default function HanoiQuiz() {
       {/* Hiển thị câu hỏi */}
       {opened !== null && !answered[opened] && (
         <div className="mt-8 bg-black/70 p-6 rounded-lg shadow-xl max-w-2xl w-full z-10 backdrop-blur-md">
-          <p className="font-bold text-lg mb-4 text-white">
+          <p className="font-bold text-xl mb-4 text-white">
             {questions[opened].question}
           </p>
           <div className="space-y-2">
